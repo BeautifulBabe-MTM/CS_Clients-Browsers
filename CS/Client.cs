@@ -48,7 +48,7 @@ namespace CS
             } while (socket.Available > 0);
             if (stringBuilder.ToString().ToLower() == "exit")
                 Environment.Exit(0);
-            
+
             return stringBuilder;
         }
         public void GetServerCommand(StringBuilder command)
